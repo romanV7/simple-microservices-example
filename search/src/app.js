@@ -1,8 +1,7 @@
 const fetch = require('node-fetch')
 const express = require('express')
 
-const Video = require('./models/video_model')
-const Book = require('./models/books_model')
+const { Video, Book } = require('npm-dependency-for-microservises')
 const app = express()
 
 app.get('/', (req, res) => res.json({ msg: 'search' }))

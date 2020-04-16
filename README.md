@@ -1,4 +1,4 @@
-# Test project using microservices
+# microservices
 
 ## Built With
 * [Node.js](https://nodejs.org/en/) - JavaScript environment  
